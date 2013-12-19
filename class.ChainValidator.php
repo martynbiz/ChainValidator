@@ -99,7 +99,7 @@ class ChainValidator {
 	*
 	* @return object Returns this to begin chaining.
 	*/
-	public function chain($value) {
+	public function set($value) {
 		// Return the errors array
 		
 		// set the value once
