@@ -16,7 +16,7 @@ The set() method instructs the object that this is a new value to validate. Addi
 
 ```php
 $email = '';
-$cc->set(email)
+$cc->set($email)
   ->isNotEmpty('Email address is blank')
   ->isEmail('Invalid email address');
 ```
